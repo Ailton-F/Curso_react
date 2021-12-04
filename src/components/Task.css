@@ -1,0 +1,25 @@
+.task-container{
+    background-color: #444;
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+    font-family: sans-serif, 'Open-sans';
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.task-container:hover{
+    background-color: #555;
+}
+
+.remove-task{
+    border: none;
+    color: chartreuse;
+    border-radius: 3px;
+    background-color: #444;
+    font-size: 20px;
+}

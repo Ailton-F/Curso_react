@@ -1,0 +1,16 @@
+.button {
+    background-color: chartreuse;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    color: #444;
+    cursor: pointer;
+    border: none;
+}
+
+.add-task-button-container{
+    margin-left: 10px;
+    flex: 1;
+}
